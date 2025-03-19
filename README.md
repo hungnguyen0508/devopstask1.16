@@ -20,8 +20,6 @@ Install all packages with `npm install`
 
 # Starting in production mode
 
-## Exercise 1.12 -> to run the project
-
 First, you need to build the static files with `npm run build`
 
 This will generate them into `build` folder.
@@ -34,7 +32,3 @@ Use npm package called serve to serve the project in port 5000:
 
 Test that the project is running by going to <http://localhost:5000>
 
-## Exercise 1.14 -> to connect to backend
-
-By default, the expected path to backend is /api. This is where the application will send requests. 
-To manually configure API path, build with `REACT_APP_BACKEND_URL` environment value set, for example `REACT_APP_BACKEND_URL=http://example.com npm run build`
